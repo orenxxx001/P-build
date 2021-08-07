@@ -129,9 +129,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=y" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=y" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=y" >> .config 
-
-
-
+        echo "CONFIG_FIRMWARE_INCLUDE_HTOP=n" >> .config 
        
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
         #格式如下：
