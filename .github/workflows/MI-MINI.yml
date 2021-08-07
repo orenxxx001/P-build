@@ -112,6 +112,25 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_MTR=y" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_RTL_SDR=y" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_RTL_SOCAT=y" >> .config #zerotier ~1.3M
+        echo "CONFIG_FIRMWARE_INCLUDE_XFRM=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_QOS=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_IMQ=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_IFB=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_IPSET=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_NFSD=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_NFSC=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_CIFS=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_MINIDLNA=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_FIREFLY=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=y" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=y" >> .config 
+
+
 
        
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
