@@ -69,8 +69,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_DOGCOM=n" >> .config #DOGCOM
         echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=n" >> .config #FFMPEG_NEW
         echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config #XUPNPD
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=n" >> .config #OPENSSL_EC
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=n" >> .config #OPENSSH
         echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=n" >> .config #SMBD36
         echo "CONFIG_FIRMWARE_INCLUDE_EAP_PEAP=n" >> .config #EAP_PEAP
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config #SFTP
